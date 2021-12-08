@@ -506,13 +506,13 @@ form label{
         font-size: 27px;
 }
 #pozadinaizagal{
-        background-image: url(FREEPOZADINA.jpg);
+        background-image: url(9.jpg);
         min-height: 550px;
         width: 100%;
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
-        background-size: cover;       
+        background-size: cover;    
 }
 #tekstgalerija{
         height: 40px;
@@ -530,24 +530,24 @@ form label{
 .blokovizaslike{
         width: 300px;
         height: 800px;
-        margin-left: 100px;
-        padding: 100px 30px 30px 30px;
+        margin-left: 90px;
+        padding: 120px 30px 30px 30px;
         float: left;
 }
 .slikab{
         width: 300px;
         height: 300px;
         margin: 20px;
-        background-clip: content-box;
+    
         border-radius: 10px;
 }
-img{
+.slikab img{
         border-radius: 10px;
         width: 100%;
+        height: 100%;
         transition: 0.5s;
 }
 img:hover{
-        width: 310px;
-        height: 310px;
+        transform: scale(1.2);
 }
 
