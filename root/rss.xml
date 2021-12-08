@@ -1,0 +1,17 @@
+<rss version="2.0">
+    <channel>
+            <title>MldGym</title>
+            <link>https://lazar146.github.io/MldGym/</link>
+            <description>MldGym - Dobrodošli</description>
+        <item>
+            <title>POPUSTI!</title>
+            <link>https://lazar146.github.io/MldGym/popustiproteini.html</link>
+            <description>Veliki popusti na proteine!</description>
+        </item>
+        <item>
+            <title>GIVEAWEY!</title>
+            <link>https://lazar146.github.io/MldGym/giveawayclanarina.html</link>
+            <description>Osvoji mesec dana besplatno!</description>
+        </item>
+    </channel>
+</rss>
