@@ -4,7 +4,6 @@
 }
 body{
         font-family: 'Comfortaa', cursive;
-        overflow-x: hidden;
 }
 body::-webkit-scrollbar {
         width: 1em;
@@ -17,7 +16,7 @@ body::-webkit-scrollbar-thumb {
 }
 body::-webkit-scrollbar-track {
         box-shadow: inset 0 0 6px rgb(38, 38, 38);
-    }
+}
 header{
         width: 100%;
         background-color: #ac9b09;
@@ -27,7 +26,6 @@ header{
         border-radius: 5px;
 }
 footer{
-        padding: 2%;
         width: 100%;
         background-color: #ac9b09;
         bottom: 0px;
@@ -105,36 +103,12 @@ nav a:hover{
 
 .pozadinateg{      
         background-image: url(FREEPOZADINA.jpg);
-        min-height: 550px;
         width: 100%;
+        height: 2000px;
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;       
-}
-#odbijac{
-        height: 150px;
-}
-#blokzatekstpreko{
-        padding-top: 300px;
-}
-#tekstpreko{
-        height: 120px;
-        background-color: #f0ffa683;
-        color: black;
-        font-size: 20px;
-        text-align: center;
-        width: 800px;
-        margin: 0 auto;
-        background-clip: content-box;
-        border-radius: 10px;
-}
-#tekstpreko h1{
-        padding-top: 30px;
-        font-weight: bold;
-}
-#tekstpreko h2{
-        font-weight: bold;
 }
 #teretanainfo{
         margin: 10px auto;
@@ -142,11 +116,25 @@ nav a:hover{
 }
 #strana1{
         width: 85%;
-        margin: 300px auto 50px auto;
+        margin: 100px auto 50px auto;
         background-color: rgb(38, 38, 38);
-        padding: 20px 0px;
-        bottom: 100px;
+        padding: 50px 0px 30px 0px;
         border-radius: 20px;
+}
+#tekstpreko1{
+        padding-top: 280px;
+        padding-bottom: 50px;
+        text-align: center;
+        margin: 10px auto;
+        width: 800px;
+        font-size: 20px;
+}
+#tekstpreko1 h1{
+        background-color:  #f0ffa683;
+        font-weight: bold;
+        border-radius: 10px;
+        padding: 5px;
+
 }
 #blok1{
         background-image: url(poslednja.jpg);
@@ -239,7 +227,7 @@ nav a:hover{
         padding: 1%;
 }
 .fa {
-        padding: 10px;
+        padding: 12px;
         font-size: 30px;
         width: 30px;
         text-align: center;
@@ -338,7 +326,7 @@ tr th:hover {background-color: rgba(38, 38, 38, 0.5);}
 #pozadinakontakt{
         background-image: url(pozadinakon.jpg);
         width: 100%;
-        height: 1500px;
+        height: 1700px;
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
@@ -351,23 +339,9 @@ tr th:hover {background-color: rgba(38, 38, 38, 0.5);}
         width: 65%;
         height: 1000px;
         background-color: rgba(38, 38, 38, 0.801);
-        margin: 20px auto;
+        margin: 50px auto 10px auto;
         border-radius: 20px;
         background-clip: content-box;
-}
-#blokzatekstprekokontakt{
-        padding-top: 300px;
-}
-#tekstprekokontakt{
-        height: 40px;
-        background-color: #f0ffa6;
-        color: black;
-        font-size: 20px;
-        text-align: center;
-        width: 500px;
-        margin: 0 auto;
-        background-clip: content-box;
-        border-radius: 10px;
 }
 #blokzablok3{
         width: fit-content;
@@ -468,7 +442,7 @@ form label{
 #bojapozadine{
         background-color: rgb(38, 38, 38);
         width: 100%;
-        height: 900px;
+        height: 1200px;
 }
 #oautoru{
         padding-top: 200px;
@@ -529,7 +503,7 @@ form label{
 }
 .blokovizaslike{
         width: 300px;
-        height: 800px;
+        height: 700px;
         margin-left: 90px;
         padding: 120px 30px 30px 30px;
         float: left;
