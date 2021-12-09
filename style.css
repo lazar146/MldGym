@@ -254,9 +254,9 @@ nav a:hover{
 }
 #izatabele{
         width: 70%;
-        height: 1450px;
+        height: 1250px;
         background-color: rgba(38, 38, 38, 0.801);
-        padding: 1px;
+        padding: 10px;
         margin: 200px auto;
         border-radius: 20px;
 }
