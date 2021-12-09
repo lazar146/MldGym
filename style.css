@@ -41,7 +41,7 @@ a{
 hr{
         border: 5px solid rgb(172, 155, 9);
         border-radius: 10px;
-        width: 1200px;
+        width: 80%;
         margin: 10px auto;
 }
 .centerblock{
@@ -104,7 +104,6 @@ nav a:hover{
 .pozadinateg{      
         background-image: url(FREEPOZADINA.jpg);
         width: 100%;
-        height: 2000px;
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
@@ -112,13 +111,13 @@ nav a:hover{
 }
 #teretanainfo{
         margin: 10px auto;
-        width: 100%;
+        width: 80%;
 }
 #strana1{
         width: 85%;
         margin: 100px auto 50px auto;
         background-color: rgb(38, 38, 38);
-        padding: 50px 0px 30px 0px;
+        padding: 20px 0px 10px 0px;
         border-radius: 20px;
 }
 #tekstpreko1{
@@ -128,6 +127,13 @@ nav a:hover{
         margin: 10px auto;
         width: 30%;
         font-size: 20px;
+        position: relative;
+        animation-duration: 1s;
+        animation-name: an1;
+}
+@keyframes an1 {
+        0%   {top:-400px;}
+        100% {top:0px;}
 }
 #tekstpreko1 h1{
         background-color:  #f0ffa683;
@@ -140,22 +146,25 @@ nav a:hover{
 #blok1{
         background-image: url(poslednja.jpg);
         height: 350px;
-        width: 440px;
+        width: 35%;
         float: left;
-        margin: 20px 150px;
+        margin: 20px 0px;
         background-repeat: no-repeat;
         border-radius: 10px;
        
 }
 #tekst{
         height: 250px;
-        width: 600px;
+        width: 55%;
         background-color: #f0ffa6;
-        float: left;
-        padding: 20px 30px 80px 20px;
-        margin: 20px 70px;
+        float: right;
+        padding: 20px 30px 80px 30px;
+        margin: 20px 0px;
         border-radius: 20px;
         font-size: 19px;
+}
+#tekst p{
+        width: auto;
 }
 #tekst h3{
         text-align: center;
@@ -171,27 +180,15 @@ nav a:hover{
         border-radius: 10px;
         padding-top: 6px;
 }
+#tri{
+        width: 100%;
+}
 .blok2{ 
-        height: 250px;
-        width: 250px;
+        height: 280px;
+        width: 20%;
         background-color: #ac9b09;
         float: left;
-        margin: 20px 80px;
-        margin-left: 105px;
-        margin-right: 20px;
-        padding: 10px;
-        border-radius: 10px;
-        text-align: center;
-        font-weight: bold;
-}
-.blok2 srednja{
-        height: 250px;
-        width: 250px;
-        background-color: #f0ffa6;
-        float: left;
-        margin: 20px 80px;
-        margin-left: 145px;
-        margin-right: 50px;
+        margin: 20px 0px 20px 8.7%;
         padding: 10px;
         border-radius: 10px;
         text-align: center;
@@ -204,11 +201,11 @@ nav a:hover{
 }
 #tekstcitata{
         height: 270px;
-        width: 1100px;
+        width: 70%;
         background-color: #f0ffa6;
         float: left;
-        margin: 20px 37px;
-        padding: 40px;
+        margin: 50px 12%;
+        padding: 30px;
         border-radius: 20px;
 }
 .naslovc{
@@ -332,9 +329,6 @@ tr th:hover {background-color: rgba(38, 38, 38, 0.5);}
         background-repeat: no-repeat;
         background-size: cover;
 }
-#kontaktpadding{
-        padding-top: 100px;
-}
 #kontakt{
         width: 65%;
         height: 1000px;
@@ -343,19 +337,14 @@ tr th:hover {background-color: rgba(38, 38, 38, 0.5);}
         border-radius: 20px;
         background-clip: content-box;
 }
-#blokzablok3{
-        width: fit-content;
-        float: left;
-}
 #blok3{
         float: left;
-        width: 500px;
+        width: 33%;
         height: 250px;
         background-color:  #f0ffa6;
-        margin: 35px 40px 20px 55px;
+        margin: 35px 40px 20px 10%;
         border-radius: 20px;
         text-align: center;
-        background-clip: content-box;
 }
 #blok3 h2{
         padding: 10px;
@@ -364,17 +353,16 @@ tr th:hover {background-color: rgba(38, 38, 38, 0.5);}
         font-size: 20px;
 }
 #forma{
-        width:fit-content;
+        width:70%;
         height: fit-content;
         background-color: #ac9b09;
         float: left;
-        margin-left: 200px;
         border-radius: 10px;
-        margin-top: 50px;
+        margin:50px 0px 0px 16%;
 }
 form{
-        margin: 20px 20px 20px 0px;
-        width: fit-content;
+        margin: 20px auto;
+        width: 95%;
         height: fit-content;
         margin: 10px auto;
         padding: 20px;
@@ -383,22 +371,22 @@ form{
 
 }
 #ime{
-        width: 800px;
+        width: 100%;
         height: 30px;
         margin-bottom: 15px;
 }
 #prezime{
-        width: 800px;
+        width: 100%;
         height: 30px;
         margin-bottom: 15px;
 }
 #ozn{
-        width: 800px;
+        width: 100%;
         height: 30px;
         margin-bottom: 15px;
 }
 #pisi{
-        width: 800px;
+        width: 100%;
         height: 150px;
         margin-bottom: 19px;
         resize: vertical;
@@ -445,7 +433,6 @@ form label{
         height: 1200px;
 }
 #oautoru{
-        padding-top: 200px;
         width: 70%;
         height: 500px;
         background-clip: content-box;
@@ -454,20 +441,20 @@ form label{
         border-radius: 10px;
 }
 #slikamene{
-        width: 400px;
+        width: 38%;
         height: 450px;
         float: left;
         background-image: url(ja.jpg);
-        margin: 20px;
+        margin: 2%;
         background-clip: content-box;
         background-position-x: -60px;
         border-radius: 10px;
 }
 #omeni{
-        width: 500px;
+        width: 50%;
         height: 450px;
         float: left;
-        margin: 20px 20px 20px 50px;
+        margin: 3%;
         background-color: #ac9b09;
         border-radius: 10px;
 }
@@ -488,6 +475,10 @@ form label{
         background-repeat: no-repeat;
         background-size: cover;    
 }
+#galerija{
+        width: 80%;
+        margin: 0px auto;
+}
 #tekstgalerija{
         height: 40px;
         color: black;
@@ -502,15 +493,15 @@ form label{
         border-radius: 10px;
 }
 .blokovizaslike{
-        width: 300px;
+        width: 27%;
         height: 700px;
-        margin-left: 90px;
-        padding: 120px 30px 30px 30px;
+        margin-left: 0.5%;
+        padding: 100px 30px 30px 30px;
         float: left;
 }
 .slikab{
-        width: 300px;
-        height: 300px;
+        width: 100%;
+        height: 350px;
         margin: 20px 20px 35px 20px;
         border-radius: 10px;
 }
