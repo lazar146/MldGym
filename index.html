@@ -1,113 +1,166 @@
-<!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8" />
-        <meta name="author" content="Lazar Milosevic"/>
-        <meta name="language" content="serbian"/>
-        <meta name="copyright" content="MLD's Gym - pocetna"/>
-        <meta name="description" content="opis teretane"/>
-        <meta name="keywords" content="Gym, trening"/>
-        <title>MLD's Gym</title>
-        <script src="https://kit.fontawesome.com/77d368e34d.js" crossorigin="anonymous"></script>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <title>Portfolio</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="favicon.png">
         <link rel="stylesheet" type="text/css" href="style.css" />
-        <link rel="shortcut icon" href="icon1.png" />
+        <link rel="stylesheet" type="text/css" href="responsive.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
     </head>
     <body>
-
-          <!--HEADER-->                                             <!--SAJT JE RADJEN NA MONITORU OD 24INCH-->
-
-      <header>
+        <header>
             <div class="centerblock">
-            <div id="imestranice">
-            <h1 id="boja"><a href="index.html"><span style="color:#f0ffa6">MLD's</span> Gym</a></h1>
-            </div> 
-          <nav>
-            <ul>
-                <li><a class="active" href="#">Početna</a></li>
-                <li><a href="cenovnik.html">Cenovnik</a></li>
-                <li><a href="galerija.html">Galerija</a></li>
-                <li><a href="kontakt.html"> Kontakt</a></li>
-                <li><a href="o autoru.html">O autoru</a></li>
-            </ul>
-            <div class="cleaner"></div>
-          </div>   
-        </nav>
-      </header>  
-
-        <!--TELO-->
-
-        <div class="pozadinateg">
-            <div id="tekstpreko1"> 
-                <h1>NAČINI SVOJ PRVI KORAK KA USPEHU POSETI NAS!</h1>
-            </div>
-          <div id="strana1">
-            <div id="teretanainfo">
-                <div id="blok1"></div>
-                <div id="tekst">
-                    <h3 class="naslovc">O TERETANI</h3>
-                    <p>MLD's Gym osnovan je 2010 godine.Dugogodišnja 
-                    istorija uspeha prati ovu teretanu i one koji treniraju u njoj,
-                    neki od njih su postali treneri u istoj, neki su se spremali
-                    za takmičenja i ostvarili velike uspehe, za sve to je zaslužna
-                    naša teretana i osoblje u njoj. Svako ko poželi može pristupiti velikom broju različitih
-                    sprava za svaki deo tela, bez ograničenja terminima,
-                    u svakom trenutku može pitati dežurnog radnika ako mu je
-                    potrebna pomoć ili mu nešto nije jasno. Uz određenu doplatu može se unajmiti svog privatnog trenera,
-                    treneri su obučeni za svaku vrstu treninga, mogu vam pomoći u svemu što vas zanima.Uvek smo otvoreni za nove članove,
-                    zato učlani što pre i počni da treniraš sa nama!</p></div>
-                <div class="cleaner"></div>
-            </div>
-        <hr>
-        <h1 id="naslovcitat">SAVETI</h1>
-            <div id="tri">
-                <div class="centerblock">
-                    <div class="blok2"><i class="fas fa-dumbbell"></i><p>Bilo da radite sa personalnim trenerom ili radite sami,
-                                                                od ključne važnosti je pravilno izvođenje vežbi. Kako biste bili
-                                                                100% sigurni da sve radite kako treba, predlažemo da vežbate ispred ogledala
-                                                                ili da povedete nekoga sa vama ko će vas ispravljati ukoliko bude bilo potrebe.</p></div>
-                    <div class="blok2"><i class="fas fa-fire-alt"></i><p>Kardio trening je najefikasniji način za skidanje masnih naslaga, postizanje i održavanja kondicije. 
-                                                                Kardio-vežbe su neophodne za svaki efikasan program treninga jer podstiču sagorevanje masnoća ali su 
-                                                                ujedno dobre i za celokupno zdravlje organizma.</p></div>
-                    <div class="blok2"><i class="fas fa-spa"></i><p>Termin spa predstavlja skraćenicu od „sanus per aquam“ što u slobodnom prevodu znači „vodom do zdravlja“.
-                                                            Spa, kao svojevrsna oaza opuštanja, pruža svojim posetiocima čitav niz usluga.Koji ćete od tretmana izabrati zavisi od vaših preferencija i mogućnosti.</p></div>
+                <div id="nav">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#servisi">My Services and Projects</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
                 </div>
             </div>
-                <div id="citat">
-                    <div id="tekstcitata">
-                <h2 class="naslovc">Zbog čega je značajna teretana?</h2>
-                    <p id="oteretani">Pre svega zdravstveni značaj, iako to nažalost nije primarni
-                        razlog kod većine ljudi koji kreću da se bave nekim vidom fizičke aktivnosti.
-                        Što se tiče zdravlja, fizička aktivnost pruža mnogo benefita kao što su: smanjenje rizika
-                        od nastanka kardiovaskularnih bolesti i dijabetesa, poboljšanje metabolizma, smanjenje količine masti u organizmu…
-                        Pored vizuelnog izgleda tela, koji je jedan od najčešćih pokretača, fizička aktivnost oslobađa od stresa,
-                        ljude čini srećnijim, zadovoljnijim, utiče na samopouzdanje… Ali ono što svakako pruža najveću opasnost je nepravilno izvođenje
-                        vežbi i podizanje težina koje su iznad sopstvenih mogućnosti. Može dovesti do ozbiljnih povreda i zbog toga bi najbolje bilo da
-                        vas neko nadgleda prvih par treninga dok vam to ne uđe u rutinu. </p>
+        </header>
+                <div id="pozadina">
+                    <h1>Hello i'm Lazar and this is my portfolio!</h1>
+                </div>
+    <a name="about"></a>
+        <div id="about">
+            <div class="centerblock">
+                <h2>About me</h2>
+                <div id="zablokove">
+                    <div id="slika"><img src="ja.jpg" alt="mojaslika"></div>
+                    <hr>
+                    <div id="tekst">
+                        <h3>My name</h3>
+                        <p>i'm Lazar Milošević</p>
+                        <h3>My birth day</h3>
+                        <p>27.09.2002</p>
+                        <h3>Where am i from</h3>
+                        <p>I'm from Serbia, Mladenovac</p>
+                        <h3>My highschool</h3>
+                        <p>Technical School Mladenovac</p>
+                        <h3>My collage</h3>
+                        <p>ICT</p>
                     </div>
-            <div class="cleaner"></div>
-                </div>     
+                </div>    
+                </div>
+            </div>
+            <a name="servisi"></a>
+        <div id="servisi">
+            <div class="centerblock">
+                <h2 id="nasl">My Services</h2>
+            <div id="za3bloka">
+                <div class="sblok">
+                    <i class="fa fa-code"></i>
+                    <h3>Web Design</h3>
+                    <p>Web design is the field that involves digital interfaces such as websites, apps, and services. By using HTML code to program websites and CSS to standardize its visual language, web design professionals are responsible for building digital experiences to be used by the public</p>
+                </div>
+                <div class="sblok">
+                    <i class="fa fa-film"></i>
+                    <h3>Video Editing</h3>
+                    <p>Video editing is the process of editing segments of motion video production footage, special effects and sound recordings in the post-production process. ... The goal of editing is to manipulate these events to bring the communication closer to the original goal or target. It is a visual art.</p>
+                </div>
+                <div class="sblok">
+                    <i class="fa fa-image fa"></i>
+                    <h3>Photo Editing</h3>
+                    <p>Photo editing is the changing of images. These images can be digital photographs, illustrations, prints, or photographs on film). Traditional editing, such as airbrushing, is done by hand. Now photo editing is done by programs such as Photoshop, Gimp and Microsoft Paint.</p>
+                </div>
+            </div>
         </div>
-
-        <!--FOOTER-->
-
+    </div>
+    <div id="projekti">
+            <h2>My Projects</h2>
+        <div class="centerblock">
+            <div id="zapr">       
+                <div id="blokpr">
+                    <a href="#"><img src="prj.png" alt="proj"></a>
+                    <div class="tooltip">More info
+                    <span class="tooltiptext">My protfolio (HTML, CSS, SASS)</span>
+                    </div>
+                </div>
+                <div id="blokpr2">
+                    <a href="https://lazar146.github.io/MldGym/index.html"><img src="prj2.png" alt="proj2"></a>
+                    <div class="tooltip">More info
+                    <span class="tooltiptext">My first project (HTML, CSS)</span>
+                    </div>
+                </div>
+            </div>
+       </div>
+    </div>
+    <a name="skills"></a>
+        <div id="skills">
+            <div class="centerblock">
+                <h2>My Skills</h2>
+                <div id="zaskilove">
+                    <div class="skilblokovi">
+                        <h4>HTML</h4>
+                        <meter max="100" value="95" title="HTML"></meter>
+                        <h4>CSS</h4>
+                        <meter max="100" value="89" title="CSS"></meter>
+                        <h4>SASS/LESS</h4>
+                        <meter max="100" value="65" title="SASS/LESS"></meter>
+                    </div>
+                    <div class="skilblokovi">
+                        <h4>ADOBE PREMIERE</h4>
+                        <meter max="100" value="83" title="ADOBE PREMIERE"></meter>
+                        <h4>PHOTOSHOP</h4>
+                        <meter max="100" value="97" title="PHOTOSHOP"></meter>
+                        <h4>CORELDRAW</h4>
+                        <meter max="100" value="52" title="CORELDRAW"></meter>
+                    </div>
+                </div> 
+            </div>
+        </div>
+        <a name="contact"></a>
+        <div id="contact">
+          <div class="centerblock">
+            <h2>Contact</h2>
+            <div id="zaformu">
+                <div id="forma">
+                    <form action="cont.php">
+                        <label>First name:</label></br>
+                        <input type="text" id="ime" name="ime" placeholder="Name.."></br>
+                        <label>Last name:</label></br>
+                        <input type="text" id="prezime" name="prezime" placeholder="Last name.."></br>
+                        <label>Email:</label></br>
+                        <input type="email" id="mejl" name="mejl" placeholder="Email.."></br>
+                        <label>Message:</label></br>
+                        <textarea id="pisi" name="pisi" placeholder="Your message.."></textarea></br>
+                        <input type="submit" id="dugme" value="Submit">
+                </div>
+                        <hr>
+                <div id="info">
+                    <h3 id="top">My Email</h3>
+                    <p>lazar.milosevic.139.21@ict.edu.rs</p>
+                    <h3>My phone number</h3>
+                    <p>+381645563434</p>
+                    <h3>My bussness mail</h3>
+                    <p>lazarmilosevic2709@gmail.com</p>
+                    <h3>My adress</h3>
+                    <p>Zdravka celara 16</p>
+                </div>
+            </div>
+          </div>
+        </div>
         <footer>
             <div class="centerblock">
-              <div id="drustvenemreze">
-                    <a href="https://www.facebook.com" class="fa fa-facebook"></a>
-                    <a href="https://www.twitter.com" class="fa fa-twitter"></a>
-                    <a href="https://www.instagram.com" class="fa fa-instagram"></a>
-                    <a href="root/rss.xml" class="fa fa-rss"></a> 
-                    <a href="root/sitemap.xml" class="fa fa-sitemap"></a>          
-                 </div>
-               <div id="copyrite">
-                <p><a href="o autoru.html"> &#169Lazar Milošević 139/21</a></p>
-               </div>
-               <div class="cleaner"></div>
+                <h4>Copyright © 2022 All rights reserved&nbsp;|&nbsp;<span id="bold">Lazar Milošević</span></h4>
+            <div id="mreze">
+                <a href="www.facebook.com"><i class="fa fa-facebook"></i></a>
+                <a href="www.instagram.com"><i class="fa fa-instagram"></i></a>
+                <a href="www.twitter.com"><i class="fa fa-twitter"></i></a>
             </div>
-        </footer>        
+            <div id="linkovi">
+                <a href="style.css">CSS</a>
+                <a href="style.scss">SASS</a>
+                <a href="responsive.css">RENSPONSIVE</a>
+            </div>
+            </div>
+        </footer>
     </body>
 </html>

@@ -1,522 +1,536 @@
-*{
-        margin: 0px;
-        padding: 0px;
+* {
+  margin: 0px;
+  padding: 0px;
 }
-body{
-        font-family: 'Comfortaa', cursive;
+
+html {
+  scroll-behavior: smooth;
 }
+
 body::-webkit-scrollbar {
-        width: 1em;
-}    
+  width: 1em;
+}
+
 body::-webkit-scrollbar-thumb {
-        background-color: #ac9b09;
-        outline: 2px; 
-        border-radius: 10px;
-        outline: 1px solid rgb(0, 0, 0);
+  background-color: #98e45a;
+  outline: 2px;
+  border-radius: 10px;
+  outline: 1px solid #191919;
 }
+
 body::-webkit-scrollbar-track {
-        box-shadow: inset 0 0 6px rgb(38, 38, 38);
-}
-header{
-        width: 100%;
-        background-color: #ac9b09;
-        position: fixed;
-        top: 0px;
-        z-index:1000;
-        border-radius: 5px;
-}
-footer{
-        width: 100%;
-        background-color: #ac9b09;
-        bottom: 0px;
-        z-index:1000;
-}
-ul{
-        list-style-type: none;
-}
-a{
-        text-decoration: none;
-        color: rgb(38, 38, 38);
-}
-hr{
-        border: 5px solid rgb(172, 155, 9);
-        border-radius: 10px;
-        width: 80%;
-        margin: 10px auto;
-}
-.centerblock{
-        width: 80%;
-        margin: 0px auto;
-}
-#icon{
-        width: 100px;
-        height: 100px;
-        background-image: url(ikonica.png);
-        float: left;
-        background-repeat: no-repeat;
-}
-#ikonica{
-        padding-top: 1%;
-}
-#imestranice{
-        float: left;
-        padding-top: 2%;
-        padding-bottom: 2%;
-}
-#imestranice p{
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: 30px;
-}
-nav ul{
-        width: 35%;
-        float: right;
-        text-align: center;
-        text-decoration: none;
-        display: inline;
-        padding-top: 3%;
-}
-nav ul li{
-        display: inline;
-        padding: 1%;
-        position: relative;
-}
-nav a{
-        text-decoration: none;
-        color: rgb(38, 38, 38);
-        padding: 1%;
-        font-family: 'Comfortaa', cursive;
-        font-weight: bold;    
-}
-nav a:hover{
-        color: #f0ffa6;
-        border-bottom: solid #f0ffa6;
-        transition: 0.3s;
-        width: 0px;
-}
-.active{
-        color: #f0ffa6;
-        border-bottom: solid #f0ffa6;
-}
-.cleaner{
-        clear: both;
+  -webkit-box-shadow: inset 0 0 6px black;
+          box-shadow: inset 0 0 6px black;
+  background-color: #585858;
 }
 
-.pozadinateg{      
-        background-image: url(FREEPOZADINA.jpg);
-        width: 100%;
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;       
+body {
+  font-family: 'Nunito', sans-serif;
 }
-#teretanainfo{
-        margin: 10px auto;
-        width: 80%;
+
+.centerblock {
+  width: 80%;
+  margin: 0px auto;
 }
-#strana1{
-        width: 85%;
-        margin: 100px auto 50px auto;
-        background-color: rgb(38, 38, 38);
-        padding: 20px 0px 10px 0px;
-        border-radius: 20px;
+
+header {
+  background-color: #191919;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  z-index: 1000;
 }
-#tekstpreko1{
-        padding-top: 280px;
-        padding-bottom: 50px;
-        text-align: center;
-        margin: 10px auto;
-        width: 30%;
-        font-size: 20px;
-        position: relative;
-        animation-duration: 1s;
-        animation-name: an1;
+
+header #nav {
+  text-align: center;
 }
+
+header #nav ul {
+  text-decoration: none;
+  padding: 0.5%;
+}
+
+header #nav ul li {
+  display: inline;
+  padding: 0% 4%;
+}
+
+header #nav ul li a {
+  text-decoration: none;
+  color: #585858;
+  font-size: 25px;
+}
+
+header #nav ul li a:hover {
+  color: #98e45a;
+}
+
+#pozadina {
+  background-image: url(pozadina.jpg);
+  background-repeat: no-repeat;
+  height: 70%;
+  text-align: center;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+#pozadina h1 {
+  padding: 16% 0%;
+  color: #98e45a;
+  position: relative;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-name: an1;
+          animation-name: an1;
+}
+
+@-webkit-keyframes an1 {
+  0% {
+    top: -400px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+
 @keyframes an1 {
-        0%   {top:-400px;}
-        100% {top:0px;}
-}
-#tekstpreko1 h1{
-        background-color:  #f0ffa683;
-        font-weight: bold;
-        border-radius: 10px;
-        padding: 5px;
-        width: 100%;
-
-}
-#blok1{
-        background-image: url(poslednja.jpg);
-        height: 350px;
-        width: 35%;
-        float: left;
-        margin: 20px 0px;
-        background-repeat: no-repeat;
-        border-radius: 10px;
-       
-}
-#tekst{
-        height: 250px;
-        width: 55%;
-        background-color: #f0ffa6;
-        float: right;
-        padding: 20px 30px 80px 30px;
-        margin: 20px 0px;
-        border-radius: 20px;
-        font-size: 19px;
-}
-#tekst p{
-        width: auto;
-}
-#tekst h3{
-        text-align: center;
-        padding-bottom: 4px;
-}
-#naslovcitat{
-        height: 33px;
-        width: 300px;
-        background-color: #f0ffa6;
-        font-size: 30px;
-        text-align: center;
-        margin: 30px auto;
-        border-radius: 10px;
-        padding-top: 6px;
-}
-#tri{
-        width: 100%;
-}
-.blok2{ 
-        height: 280px;
-        width: 20%;
-        background-color: #ac9b09;
-        float: left;
-        margin: 20px 0px 20px 8.7%;
-        padding: 10px;
-        border-radius: 10px;
-        text-align: center;
-        font-weight: bold;
-}
-.fas{
-        color: rgb(38, 38, 38);
-        font-size: 50px;
-        padding-bottom: 20px;
-}
-#tekstcitata{
-        height: 270px;
-        width: 70%;
-        background-color: #f0ffa6;
-        float: left;
-        margin: 50px 12.8%;
-        padding: 30px;
-        border-radius: 20px;
-}
-.naslovc{
-        margin: 5px auto;
-        width: 417px;
-        background-color: rgb(38, 38, 38);
-        padding: 5px;
-        border-radius: 10px;
-        color: #f0ffa6;
-}
-#oteretani{
-        padding: 10px;
-        font-size: 20px;
-}
-#drustvenemreze{
-        width: 400px;
-        padding: 1%;
-}
-.fa {
-        padding: 12px;
-        font-size: 30px;
-        width: 30px;
-        text-align: center;
-        text-decoration: none;
-        border-radius: 50%;
-        color: rgb(38, 38, 38);
-        float: left;
-}
-.fa:hover{
-        color: #f0ffa6;
-        font-size: 34px;
-}
-#copyrite p{
-        float: right;
-        width: 200px;
-}
-#pozadinacen{
-        background-image: url(4.jpg);
-        width: 100%;
-        height: 800px;
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        
-}
-#izatabele{
-        width: 70%;
-        height: 1250px;
-        background-color: rgba(38, 38, 38, 0.801);
-        padding: 10px;
-        margin: 200px auto;
-        border-radius: 20px;
-}
-.blokt{
-        height: 370px;
-        width: 65%;
-        background-color: #f0ffa6;
-        margin: 50px auto;
-        padding: 30px;
-        border-radius: 10px;   
-}
-table{
-        border: solid;
-        border-color: rgb(38, 38, 38);
-        border-width: 3px;
-        margin: 0 auto;
-        padding: 10px;
-        width: 80%;
-        border-radius: 10px;
-}
-table th{
-        padding: 3px;
-        text-align: center;
-        border-bottom-style: solid;
-        border-color: rgb(38, 38, 38);
-        vertical-align: bottom;
-        font-weight: bold;
-        font-size: 30px;
-        border-radius: 7px; 
-}
-table td{
-        padding: 3px;
-        text-align: center;
-        border-bottom-style: solid;
-        border-color: #ac9b09;
-        vertical-align: bottom; 
-        border-radius: 7px; 
-        font-weight: Bold;   
-}
-#pod{
-        border-bottom-style: solid;
-        border-color: rgb(38, 38, 38);
-}
-tr{
-        height: 40px;
-}
-tfoot{
-        padding: 10px;
-}
-tfoot td{
-        border-bottom-style: solid;
-        border-color: rgb(38, 38, 38);
-        padding: 10px;
-        vertical-align: bottom;
-}
-tr:hover {background-color: rgba(172, 156, 9, 0.5);}
-tr th:hover {background-color: rgba(38, 38, 38, 0.5);}
-#srednjatabela{
-        height: 295px;
-}
-#trecatabela{
-        height: 210px;
-} 
-#pozadinakontakt{
-        background-image: url(pozadinakon.jpg);
-        width: 100%;
-        height: 1700px;
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-}
-#kontakt{
-        width: 65%;
-        height: 1000px;
-        background-color: rgba(38, 38, 38, 0.801);
-        margin: 50px auto 10px auto;
-        border-radius: 20px;
-        background-clip: content-box;
-}
-#blokovi3{
-        width: 100%;
-        margin: 0px auto;
-}
-.blok3{
-        float: left;
-        width: 32%;
-        height: 250px;
-        background-color:  #f0ffa6;
-        margin: 35px 40px 20px 10%;
-        border-radius: 20px;
-        text-align: center;
-}
-.blok3 h2{
-        padding: 10px;
-}
-.blok3 p{
-        font-size: 20px;
-}
-#forma{
-        width:70%;
-        height: fit-content;
-        background-color: #ac9b09;
-        float: left;
-        border-radius: 10px;
-        margin:50px 0px 0px 16%;
-}
-form{
-        margin: 20px auto;
-        width: 95%;
-        height: fit-content;
-        margin: 10px auto;
-        padding: 20px;
-        background-clip: content-box;
-        float: left;
-
-}
-#ime{
-        width: 100%;
-        height: 30px;
-        margin-bottom: 15px;
-}
-#prezime{
-        width: 100%;
-        height: 30px;
-        margin-bottom: 15px;
-}
-#ozn{
-        width: 100%;
-        height: 30px;
-        margin-bottom: 15px;
-}
-#pisi{
-        width: 100%;
-        height: 150px;
-        margin-bottom: 19px;
-        resize: vertical;
-        font-size: 15px;
-        margin-bottom: 15px;
-}
-form label{
-        font-size: 30px;
-}
-#salji{
-        background-color: #f0ffa6;
-        color: black;
-        transition: 0.5s;
-        font-size: 25px;
-        border-radius: 5px;
-        border-color: white;
-        padding: 5px;
-}
-#salji:hover{
-        background-color: rgb(4, 87, 4);
-        color: black;
-        transition: 0.5s;
-        border-color: #ac9b09;
-}
-#reset{
-        background-color: rgb(38, 38, 38);
-        color: white;
-        transition: 0.5s;
-        font-size: 25px;
-        border-radius: 5px;
-        border-color: white;
-        padding: 5px;
-        float: right;
-}
-#reset:hover{
-        background-color: rgb(139, 33, 33);
-        color: black;
-        transition: 0.5s;
-        border-color: black;
-}
-#bojapozadine{
-        background-color: rgb(38, 38, 38);
-        width: 100%;
-        height: 1200px;
-}
-#oautoru{
-        width: 70%;
-        height: 500px;
-        background-clip: content-box;
-        background-color: #f0ffa6;
-        margin: 20px auto;
-        border-radius: 10px;
-}
-#slikamene{
-        width: 38%;
-        height: 450px;
-        float: left;
-        background-image: url(ja.jpg);
-        margin: 2%;
-        background-clip: content-box;
-        background-position-x: -60px;
-        border-radius: 10px;
-}
-#omeni{
-        width: 50%;
-        height: 450px;
-        float: right;
-        margin: 2%;
-        background-color: #ac9b09;
-        border-radius: 10px;
-}
-#omeni h2{
-        padding: 25px 10px 5px 10px;
-        font-size: 30px;
-}
-#omeni p{
-        padding: 0px 0px 20px 10px;
-        font-size: 27px;
-}
-#pozadinaizagal{
-        background-image: url(9.jpg);
-        min-height: 550px;
-        width: 100%;
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;    
-}
-#galerija{
-        width: 80%;
-        margin: 0px auto;
-        padding-top: 100px;
-}
-#tekstgalerija{
-        height: 40px;
-        color: black;
-        font-size: 20px;
-        text-align: center;
-        width: 500px;
-        margin: 0px auto;
-        padding-top: 300px;
-}
-#tekstgalerija h1{
-        background-color: #f0ffa6;
-        border-radius: 10px;
-}
-.blokovizaslike{
-        width: 27%;
-        height: 700px;
-        margin-left: 0.5%;
-        padding: 100px 30px 30px 30px;
-        float: left;
-}
-.slikab{
-        width: 100%;
-        height: 350px;
-        margin: 20px 20px 35px 20px;
-        border-radius: 10px;
-}
-.slikab img{
-        border-radius: 10px;
-        width: 100%;
-        height: 100%;
-        transition: 0.5s;
-}
-img:hover{
-        transform: scale(1.2);
+  0% {
+    top: -400px;
+  }
+  100% {
+    top: 0px;
+  }
 }
 
+#about {
+  background-color: #585858;
+  width: 100%;
+  padding-bottom: 2%;
+}
+
+#about h2 {
+  padding: 3%;
+  font-size: 40px;
+  color: #98e45a;
+  text-align: center;
+  margin-left: -3%;
+}
+
+#about #zablokove {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#about #zablokove #slika img {
+  width: 100%;
+  height: 100%;
+  margin-left: 10%;
+}
+
+#about #zablokove hr {
+  border-color: #98e45a;
+  background-color: #98e45a;
+  width: 2px;
+  margin-left: 1.8%;
+}
+
+#about #zablokove #tekst {
+  width: 25%;
+  padding: 3%;
+  text-align: center;
+}
+
+#about #zablokove #tekst h3 {
+  font-size: 30px;
+  color: #98e45a;
+}
+
+#about #zablokove #tekst p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#servisi {
+  background-color: #191919;
+  width: 100%;
+  padding: 1% 0%;
+}
+
+#servisi #nasl, #servisi #projekti h2, #projekti #servisi h2 {
+  padding: 3%;
+  font-size: 40px;
+  color: #98e45a;
+  text-align: center;
+}
+
+#servisi #za3bloka {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#servisi #za3bloka .sblok {
+  padding: 1%;
+  text-align: center;
+  width: 30%;
+  background-color: #7c7c7c;
+  word-break: break-all;
+  border-radius: 10px;
+}
+
+#servisi #za3bloka .sblok h3 {
+  font-size: 25px;
+}
+
+#servisi #za3bloka .sblok:hover {
+  border-radius: 15px;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+#servisi #za3bloka .sblok:hover i {
+  -webkit-transition: all 0.6s ease-in-out;
+  transition: all 0.6s ease-in-out;
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+#servisi #za3bloka .sblok i {
+  font-size: 40px;
+  color: #98e45a;
+}
+
+#servisi #za3bloka .sblok p {
+  font-size: 20px;
+}
+
+#projekti {
+  background-color: #191919;
+  width: 100%;
+  padding: 3% 0;
+}
+
+#projekti h2 {
+  padding: 3%;
+  font-size: 40px;
+  color: #98e45a;
+  text-align: center;
+}
+
+#projekti #zapr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#projekti #zapr #blokpr {
+  padding: 1%;
+  text-align: center;
+  width: 36%;
+}
+
+#projekti #zapr #blokpr img {
+  width: 100%;
+  height: 100%;
+}
+
+#projekti #zapr #blokpr:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#projekti #zapr #blokpr .tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 2px solid #98e45a;
+  color: #7c7c7c;
+  font-size: 20px;
+}
+
+#projekti #zapr #blokpr .tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+#projekti #zapr #blokpr .tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #585858;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+  font-size: 15px;
+}
+
+#projekti #zapr #blokpr2 {
+  padding: 1%;
+  text-align: center;
+  width: 36%;
+}
+
+#projekti #zapr #blokpr2 img {
+  width: 100%;
+  height: 100%;
+}
+
+#projekti #zapr #blokpr2:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#projekti #zapr #blokpr2 .tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 2px solid #98e45a;
+  color: #7c7c7c;
+  font-size: 20px;
+}
+
+#projekti #zapr #blokpr2 .tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+#projekti #zapr #blokpr2 .tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #585858;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+  font-size: 15px;
+}
+
+#skills {
+  background-color: #585858;
+  width: 100%;
+  padding: 1% 0%;
+}
+
+#skills h2 {
+  padding: 3%;
+  font-size: 40px;
+  color: #98e45a;
+  text-align: center;
+}
+
+#skills #zaskilove {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#skills #zaskilove .skilblokovi {
+  width: 45%;
+  background-color: #191919;
+  padding: 1%;
+  border-radius: 10px;
+}
+
+#skills #zaskilove .skilblokovi meter {
+  width: 100%;
+  margin-bottom: 0.5%;
+}
+
+#skills #zaskilove .skilblokovi h4 {
+  font-size: 17px;
+  color: #98e45a;
+}
+
+#contact {
+  background-color: #191919;
+  width: 100%;
+  padding: 1% 0%;
+}
+
+#contact h2 {
+  padding: 3%;
+  font-size: 40px;
+  color: #98e45a;
+  text-align: center;
+}
+
+#contact hr {
+  border-color: #98e45a;
+  background-color: #98e45a;
+  width: 2px;
+}
+
+#contact #zaformu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#contact #zaformu #forma {
+  width: 60%;
+  background-color: #585858;
+  border-radius: 10px;
+}
+
+#contact #zaformu #forma form {
+  margin: 20px auto;
+  width: 95%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: 10px auto;
+  padding: 20px;
+  background-clip: content-box;
+  float: left;
+}
+
+#contact #zaformu #forma form label {
+  color: #98e45a;
+}
+
+#contact #zaformu #forma form ::-webkit-input-placeholder {
+  color: #191919;
+}
+
+#contact #zaformu #forma form :-ms-input-placeholder {
+  color: #191919;
+}
+
+#contact #zaformu #forma form ::-ms-input-placeholder {
+  color: #191919;
+}
+
+#contact #zaformu #forma form ::placeholder {
+  color: #191919;
+}
+
+#contact #zaformu #forma #ime {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 15px;
+  background-color: #7c7c7c;
+}
+
+#contact #zaformu #forma #prezime {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 15px;
+  background-color: #7c7c7c;
+}
+
+#contact #zaformu #forma #mejl {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 15px;
+  background-color: #7c7c7c;
+}
+
+#contact #zaformu #forma #pisi {
+  width: 100%;
+  height: 150px;
+  margin-bottom: 19px;
+  resize: vertical;
+  font-size: 15px;
+  margin-bottom: 15px;
+  background-color: #7c7c7c;
+}
+
+#contact #zaformu #forma form label {
+  font-size: 30px;
+}
+
+#contact #zaformu #forma #dugme {
+  background-color: #191919;
+  color: #7c7c7c;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  font-size: 25px;
+  border-radius: 5px;
+  border-color: white;
+  padding: 5px;
+}
+
+#contact #zaformu #forma #dugme:hover {
+  background-color: #98e45a 4, 87, 4;
+  color: #98e45a;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  border-color: #98e45a;
+}
+
+#contact #zaformu #info {
+  width: 35%;
+  background-color: #585858;
+  border-radius: 10px;
+  text-align: center;
+  word-break: break-all;
+}
+
+#contact #zaformu #info h3 {
+  font-size: 30px;
+  color: #98e45a;
+  margin-top: 3%;
+}
+
+#contact #zaformu #info #top {
+  margin-top: 23%;
+}
+
+#contact #zaformu #info p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  background-color: #191919;
+}
+
+footer h4 {
+  color: #98e45a;
+  font-size: 19px;
+  padding: 2%;
+}
+
+footer #bold {
+  font-weight: bolder;
+  color: #7c7c7c;
+}
+
+footer #mreze i {
+  font-size: 30px;
+  color: #98e45a;
+  padding: 1.9%;
+}
+
+footer #mreze i:hover {
+  color: #7c7c7c;
+  -webkit-transition: all 0.6s ease-in-out;
+  transition: all 0.6s ease-in-out;
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+footer a {
+  text-decoration: none;
+  color: #7c7c7c;
+  font-size: 17px;
+  padding: 0px 5px;
+}
+
+footer aa:hover {
+  color: #98e45a;
+}
+/*# sourceMappingURL=style.css.map */
