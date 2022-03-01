@@ -1,0 +1,522 @@
+*{
+        margin: 0px;
+        padding: 0px;
+}
+body{
+        font-family: 'Comfortaa', cursive;
+}
+body::-webkit-scrollbar {
+        width: 1em;
+}    
+body::-webkit-scrollbar-thumb {
+        background-color: #ac9b09;
+        outline: 2px; 
+        border-radius: 10px;
+        outline: 1px solid rgb(0, 0, 0);
+}
+body::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 6px rgb(38, 38, 38);
+}
+header{
+        width: 100%;
+        background-color: #ac9b09;
+        position: fixed;
+        top: 0px;
+        z-index:1000;
+        border-radius: 5px;
+}
+footer{
+        width: 100%;
+        background-color: #ac9b09;
+        bottom: 0px;
+        z-index:1000;
+}
+ul{
+        list-style-type: none;
+}
+a{
+        text-decoration: none;
+        color: rgb(38, 38, 38);
+}
+hr{
+        border: 5px solid rgb(172, 155, 9);
+        border-radius: 10px;
+        width: 80%;
+        margin: 10px auto;
+}
+.centerblock{
+        width: 80%;
+        margin: 0px auto;
+}
+#icon{
+        width: 100px;
+        height: 100px;
+        background-image: url(ikonica.png);
+        float: left;
+        background-repeat: no-repeat;
+}
+#ikonica{
+        padding-top: 1%;
+}
+#imestranice{
+        float: left;
+        padding-top: 2%;
+        padding-bottom: 2%;
+}
+#imestranice p{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 30px;
+}
+nav ul{
+        width: 35%;
+        float: right;
+        text-align: center;
+        text-decoration: none;
+        display: inline;
+        padding-top: 3%;
+}
+nav ul li{
+        display: inline;
+        padding: 1%;
+        position: relative;
+}
+nav a{
+        text-decoration: none;
+        color: rgb(38, 38, 38);
+        padding: 1%;
+        font-family: 'Comfortaa', cursive;
+        font-weight: bold;    
+}
+nav a:hover{
+        color: #f0ffa6;
+        border-bottom: solid #f0ffa6;
+        transition: 0.3s;
+        width: 0px;
+}
+.active{
+        color: #f0ffa6;
+        border-bottom: solid #f0ffa6;
+}
+.cleaner{
+        clear: both;
+}
+
+.pozadinateg{      
+        background-image: url(FREEPOZADINA.jpg);
+        width: 100%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;       
+}
+#teretanainfo{
+        margin: 10px auto;
+        width: 80%;
+}
+#strana1{
+        width: 85%;
+        margin: 100px auto 50px auto;
+        background-color: rgb(38, 38, 38);
+        padding: 20px 0px 10px 0px;
+        border-radius: 20px;
+}
+#tekstpreko1{
+        padding-top: 280px;
+        padding-bottom: 50px;
+        text-align: center;
+        margin: 10px auto;
+        width: 30%;
+        font-size: 20px;
+        position: relative;
+        animation-duration: 1s;
+        animation-name: an1;
+}
+@keyframes an1 {
+        0%   {top:-400px;}
+        100% {top:0px;}
+}
+#tekstpreko1 h1{
+        background-color:  #f0ffa683;
+        font-weight: bold;
+        border-radius: 10px;
+        padding: 5px;
+        width: 100%;
+
+}
+#blok1{
+        background-image: url(poslednja.jpg);
+        height: 350px;
+        width: 35%;
+        float: left;
+        margin: 20px 0px;
+        background-repeat: no-repeat;
+        border-radius: 10px;
+       
+}
+#tekst{
+        height: 250px;
+        width: 55%;
+        background-color: #f0ffa6;
+        float: right;
+        padding: 20px 30px 80px 30px;
+        margin: 20px 0px;
+        border-radius: 20px;
+        font-size: 19px;
+}
+#tekst p{
+        width: auto;
+}
+#tekst h3{
+        text-align: center;
+        padding-bottom: 4px;
+}
+#naslovcitat{
+        height: 33px;
+        width: 300px;
+        background-color: #f0ffa6;
+        font-size: 30px;
+        text-align: center;
+        margin: 30px auto;
+        border-radius: 10px;
+        padding-top: 6px;
+}
+#tri{
+        width: 100%;
+}
+.blok2{ 
+        height: 280px;
+        width: 20%;
+        background-color: #ac9b09;
+        float: left;
+        margin: 20px 0px 20px 8.7%;
+        padding: 10px;
+        border-radius: 10px;
+        text-align: center;
+        font-weight: bold;
+}
+.fas{
+        color: rgb(38, 38, 38);
+        font-size: 50px;
+        padding-bottom: 20px;
+}
+#tekstcitata{
+        height: 270px;
+        width: 70%;
+        background-color: #f0ffa6;
+        float: left;
+        margin: 50px 12.8%;
+        padding: 30px;
+        border-radius: 20px;
+}
+.naslovc{
+        margin: 5px auto;
+        width: 417px;
+        background-color: rgb(38, 38, 38);
+        padding: 5px;
+        border-radius: 10px;
+        color: #f0ffa6;
+}
+#oteretani{
+        padding: 10px;
+        font-size: 20px;
+}
+#drustvenemreze{
+        width: 400px;
+        padding: 1%;
+}
+.fa {
+        padding: 12px;
+        font-size: 30px;
+        width: 30px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+        color: rgb(38, 38, 38);
+        float: left;
+}
+.fa:hover{
+        color: #f0ffa6;
+        font-size: 34px;
+}
+#copyrite p{
+        float: right;
+        width: 200px;
+}
+#pozadinacen{
+        background-image: url(4.jpg);
+        width: 100%;
+        height: 800px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+}
+#izatabele{
+        width: 70%;
+        height: 1250px;
+        background-color: rgba(38, 38, 38, 0.801);
+        padding: 10px;
+        margin: 200px auto;
+        border-radius: 20px;
+}
+.blokt{
+        height: 370px;
+        width: 65%;
+        background-color: #f0ffa6;
+        margin: 50px auto;
+        padding: 30px;
+        border-radius: 10px;   
+}
+table{
+        border: solid;
+        border-color: rgb(38, 38, 38);
+        border-width: 3px;
+        margin: 0 auto;
+        padding: 10px;
+        width: 80%;
+        border-radius: 10px;
+}
+table th{
+        padding: 3px;
+        text-align: center;
+        border-bottom-style: solid;
+        border-color: rgb(38, 38, 38);
+        vertical-align: bottom;
+        font-weight: bold;
+        font-size: 30px;
+        border-radius: 7px; 
+}
+table td{
+        padding: 3px;
+        text-align: center;
+        border-bottom-style: solid;
+        border-color: #ac9b09;
+        vertical-align: bottom; 
+        border-radius: 7px; 
+        font-weight: Bold;   
+}
+#pod{
+        border-bottom-style: solid;
+        border-color: rgb(38, 38, 38);
+}
+tr{
+        height: 40px;
+}
+tfoot{
+        padding: 10px;
+}
+tfoot td{
+        border-bottom-style: solid;
+        border-color: rgb(38, 38, 38);
+        padding: 10px;
+        vertical-align: bottom;
+}
+tr:hover {background-color: rgba(172, 156, 9, 0.5);}
+tr th:hover {background-color: rgba(38, 38, 38, 0.5);}
+#srednjatabela{
+        height: 295px;
+}
+#trecatabela{
+        height: 210px;
+} 
+#pozadinakontakt{
+        background-image: url(pozadinakon.jpg);
+        width: 100%;
+        height: 1700px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+#kontakt{
+        width: 65%;
+        height: 1000px;
+        background-color: rgba(38, 38, 38, 0.801);
+        margin: 50px auto 10px auto;
+        border-radius: 20px;
+        background-clip: content-box;
+}
+#blokovi3{
+        width: 100%;
+        margin: 0px auto;
+}
+.blok3{
+        float: left;
+        width: 32%;
+        height: 250px;
+        background-color:  #f0ffa6;
+        margin: 35px 40px 20px 10%;
+        border-radius: 20px;
+        text-align: center;
+}
+.blok3 h2{
+        padding: 10px;
+}
+.blok3 p{
+        font-size: 20px;
+}
+#forma{
+        width:70%;
+        height: fit-content;
+        background-color: #ac9b09;
+        float: left;
+        border-radius: 10px;
+        margin:50px 0px 0px 16%;
+}
+form{
+        margin: 20px auto;
+        width: 95%;
+        height: fit-content;
+        margin: 10px auto;
+        padding: 20px;
+        background-clip: content-box;
+        float: left;
+
+}
+#ime{
+        width: 100%;
+        height: 30px;
+        margin-bottom: 15px;
+}
+#prezime{
+        width: 100%;
+        height: 30px;
+        margin-bottom: 15px;
+}
+#ozn{
+        width: 100%;
+        height: 30px;
+        margin-bottom: 15px;
+}
+#pisi{
+        width: 100%;
+        height: 150px;
+        margin-bottom: 19px;
+        resize: vertical;
+        font-size: 15px;
+        margin-bottom: 15px;
+}
+form label{
+        font-size: 30px;
+}
+#salji{
+        background-color: #f0ffa6;
+        color: black;
+        transition: 0.5s;
+        font-size: 25px;
+        border-radius: 5px;
+        border-color: white;
+        padding: 5px;
+}
+#salji:hover{
+        background-color: rgb(4, 87, 4);
+        color: black;
+        transition: 0.5s;
+        border-color: #ac9b09;
+}
+#reset{
+        background-color: rgb(38, 38, 38);
+        color: white;
+        transition: 0.5s;
+        font-size: 25px;
+        border-radius: 5px;
+        border-color: white;
+        padding: 5px;
+        float: right;
+}
+#reset:hover{
+        background-color: rgb(139, 33, 33);
+        color: black;
+        transition: 0.5s;
+        border-color: black;
+}
+#bojapozadine{
+        background-color: rgb(38, 38, 38);
+        width: 100%;
+        height: 1200px;
+}
+#oautoru{
+        width: 70%;
+        height: 500px;
+        background-clip: content-box;
+        background-color: #f0ffa6;
+        margin: 20px auto;
+        border-radius: 10px;
+}
+#slikamene{
+        width: 38%;
+        height: 450px;
+        float: left;
+        background-image: url(ja.jpg);
+        margin: 2%;
+        background-clip: content-box;
+        background-position-x: -60px;
+        border-radius: 10px;
+}
+#omeni{
+        width: 50%;
+        height: 450px;
+        float: right;
+        margin: 2%;
+        background-color: #ac9b09;
+        border-radius: 10px;
+}
+#omeni h2{
+        padding: 25px 10px 5px 10px;
+        font-size: 30px;
+}
+#omeni p{
+        padding: 0px 0px 20px 10px;
+        font-size: 27px;
+}
+#pozadinaizagal{
+        background-image: url(9.jpg);
+        min-height: 550px;
+        width: 100%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;    
+}
+#galerija{
+        width: 80%;
+        margin: 0px auto;
+        padding-top: 100px;
+}
+#tekstgalerija{
+        height: 40px;
+        color: black;
+        font-size: 20px;
+        text-align: center;
+        width: 500px;
+        margin: 0px auto;
+        padding-top: 300px;
+}
+#tekstgalerija h1{
+        background-color: #f0ffa6;
+        border-radius: 10px;
+}
+.blokovizaslike{
+        width: 27%;
+        height: 700px;
+        margin-left: 0.5%;
+        padding: 100px 30px 30px 30px;
+        float: left;
+}
+.slikab{
+        width: 100%;
+        height: 350px;
+        margin: 20px 20px 35px 20px;
+        border-radius: 10px;
+}
+.slikab img{
+        border-radius: 10px;
+        width: 100%;
+        height: 100%;
+        transition: 0.5s;
+}
+img:hover{
+        transform: scale(1.2);
+}
+
